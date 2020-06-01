@@ -66,11 +66,6 @@ def main_menu():
             if click:
                 exit()
 
-        pygame.draw.rect(screen, (0, 0, 0), button_1)
-        pygame.draw.rect(screen, (0, 0, 0), button_2)
-        pygame.draw.rect(screen, (0, 0, 0), button_3)
-        pygame.draw.rect(screen, (0, 0, 0), button_4)
-
         screen.blit(font_title.render('Jouer', True, (255, 255, 255)), (88, 225))
         screen.blit(font_title.render('Regles', True, (255, 255, 255)), (88, 375))
         screen.blit(font_title.render('Options', True, (255, 255, 255)), (88, 525))
@@ -115,7 +110,7 @@ Plus votre bouclier prend de degats plus vous perdez de vos PV.
 
 Vous avez un deck de 32 cartes maximun et une main de 7 cartes maximum.
 
-Vous disposez de 3 ressources différentes, nécessaires à l'utilisation de vos cartes : 
+Vous disposez de 3 ressources differentes, necessaires a l'utilisation de vos cartes : 
     - votre energie
     - vos potions
     - votre mana
