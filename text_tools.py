@@ -1,7 +1,7 @@
 import pygame
 
 
-# Thanks to https://stackoverflow.com/questions/42014195/rendering-text-with-multiple-lines-in-pygame/42015712
+
 def blit_text(surface, text, pos, font, color=pygame.Color('black')):
     words = [word.split(' ') for word in text.splitlines()]  # 2D array where each row is a list of words.
     space = font.size(' ')[0]  # The width of a space.

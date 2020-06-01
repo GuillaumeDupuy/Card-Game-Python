@@ -104,12 +104,3 @@ class InputBox:
         self.txt_surface = FONT.render(self.text, True, self.color)
         return True
     
-    
-    
-    
-    
-    
-    
-        
-        
-        

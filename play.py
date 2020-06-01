@@ -592,8 +592,8 @@ def get_username():
     input_box_1 = pygame.Rect(500, 350, 350, 65)
     input_box_2 = pygame.Rect(500, 450, 350, 65)
     button_play = pygame.Rect(500, 700, 250, 65)
-    color_inactive = pygame.Color('red')
-    color_active = pygame.Color('white')
+    color_inactive = pygame.Color('white')
+    color_active = pygame.Color('red')
     color1 = color_inactive
     color2 = color_inactive
     global player1_username
