@@ -1,5 +1,8 @@
 # Projet Dev Ynov
 
+Depot git du projet ynov developpement logiciel des B1A du groupe A17 : DUPUY Guillaume / DESAI Vishal
+Projet numéro 1 : réplique du jeu “Castle Siege: Fantasy Card Game” 
+
 Les étapes pour jouer le projet :
 
 1. Cloner le projet 
