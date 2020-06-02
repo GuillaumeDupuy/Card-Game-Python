@@ -14,8 +14,15 @@ def init_db():
 
         cur = db.cursor()
 
-        # Creer table Card
+        # Creer la database
         # sqlquery = """
+        # CREATE DATABASE card_game CHARACTER SET 'utf8';
+        # """
+        # cur.execute(sqlquery)
+        # print("Database card_game Created Successfully")
+
+        # Creer table Card
+        # sqlquery2 = """
         # CREATE TABLE IF NOT EXISTS card (
         # Id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
         # Name CHAR(100) NOT NULL,
@@ -28,11 +35,11 @@ def init_db():
         # Description CHAR(255) NOT NULL
         # )
         # """
-        # cur.execute(sqlquery)
+        # cur.execute(sqlquery2)
         # print("Table card Created Successfully")
         
         # inserer info dans la table
-        # sqlquery2 = """
+        # sqlquery3 = """
         # INSERT TO card (Name,Ressource_type, Cost, Effect, Value, Value, Rarity, Description) VALUES
         # ('Bouliste', 'PA', '2', 'Shield', '-6', 'Enemy', 'Rare', 'Détruit le bouclier de l'ennemie'),
         # ('Bébé dragon', 'PM', '4', 'Life', '-50', 'Enemy', 'Epic', 'Fait des rototos-boules de feu qui infligent des dégâts de zone depuis les airs'),
@@ -48,7 +55,7 @@ def init_db():
         # ('Boule de feu', 'PM', '1', 'Life', '-5', 'Enemy', 'Rare', 'Et bim, une boule de feu. Incinère et inflige des dégâts sur l'ennemie'),
         # ('Gel', 'PM', '1', 'Life', '-5', 'Enemy', 'Rare', 'Immobilise et inflige des dégâts à l'ennemi. QUE PERSONNE NE BOUGE !');
         # """
-        # cur.execute(sqlquery2)
+        # cur.execute(sqlquery3)
         # print("Informations Inserted Successfully")
 
         db.close()
