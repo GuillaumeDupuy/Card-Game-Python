@@ -7,7 +7,7 @@ Les étapes pour jouer le projet :
 
 1. Cloner le projet 
 2. Activer votre environnements virtuel (Xampp ou Wampp)
-3. Modifier les informations de connexion dans le fichier mysl_connexion.py (decommenter toute la création et l'insertion de la table)
+3. Modifier les informations de connexion dans le fichier mysl_connexion.py (decommenter toute la création de la database et de la table et l'insertion des inforamtions de la table)
 4. Executer le fichier game.py et profiter du jeu
 
 
@@ -19,7 +19,7 @@ Les étapes pour jouer le projet :
 
 Sinon vous aurez pas les modules et les 'import' pour vous conecter à la database
 
-- Si votre insertion de données n'a pas marcher, vous pouvez importer la database avec le fichier (card_game.sql)
+- Si votre insertion de données n'a pas marcher, vous pouvez importer la database avec le fichier (card_game2.sql) et les données avec le fichier card.sql
 
 # Aide
  
