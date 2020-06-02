@@ -18,7 +18,6 @@ card_cadre = pygame.display.set_mode((275, 350))
 cards = []
 font_text = pygame.font.SysFont('Comic Sans MS,Arial', 20)
 font_title = pygame.font.SysFont('Helvetic', 75)
-card_csv_path = 'ressources/cards.csv'
 
 
 def cards_list():
