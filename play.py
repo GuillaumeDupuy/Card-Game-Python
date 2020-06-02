@@ -426,9 +426,8 @@ def game():
     for j in range(0, 7):
         add_card_to_hand(deck_joueur2, joueur2)
 
-    print(str(deck_joueur1.get_nb_cards_in_deck()) + ' cartes dans le deck - Liste des cartes du deck :')
-    for card_in_deck in deck_joueur1.get_cards_from_deck():
-        print(card_in_deck)
+    
+    
 
     continuer = True
     while continuer:
